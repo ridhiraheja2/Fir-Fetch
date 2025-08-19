@@ -27,9 +27,8 @@ Fir-Fetch 是一款功能强大的自动化工具，旨在从互联网上公开�
 
 ### 图形化界面 (`Fir-Fetch.exe`)
 
-![image-20250818171149337](C:\Users\zy\AppData\Roaming\Typora\typora-user-images\image-20250818171149337.png)
-
-![image-20250819073537748](C:\Users\zy\AppData\Roaming\Typora\typora-user-images\image-20250819073537748.png)
+<img src=https://github.com/11firefly11/Fir-Fetch/blob/main/img/image-20250818171149337.png>
+<img src=https://github.com/11firefly11/Fir-Fetch/blob/main/img/image-20250819073537748.png>
 
 - **单一目标扫描**：
   - 在 **"目标"** 输入框直接输入您想要扫描的域名。
